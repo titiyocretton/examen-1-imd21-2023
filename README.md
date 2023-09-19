@@ -19,7 +19,7 @@ Le non-respect de ces exceptions sera sanctionné par la note 1.
 
 ## Temps à disposition
 
-Le projet doit être réalisé sur 6 périodes, du lundi 18.09 au mercredi 20.09.
+Le projet doit être réalisé sur 6 périodes, du mercredi 20.09 au jeudi 21.09.
 Le travail se fait uniquement durant les périodes de frontend development, et pas à la maison.
 
 **Un commit doit être réalisé à la fin des 4 premières périodes.**
