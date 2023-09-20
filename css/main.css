@@ -75,12 +75,21 @@ footer {
 
 .news {
   background: var(--beige);
-  padding: 60px 0;
+  padding: 60px 10px;
 }
 
 .citation {
   background: var(--green);
   text-align: center;
+  padding-top: 20px;
+}
+
+.citation p {
+  padding-bottom: 20px;
+}
+
+.citation strong {
+  font-size: 30px;
 }
 
 .opportunities h2 {
@@ -101,6 +110,7 @@ strong,
 .opportunities,
 footer h2 {
   font-family: var(--sans-serif);
+  text-transform: uppercase;
 }
 
 .opportunities .container {
@@ -119,7 +129,6 @@ footer h2 {
 
 .container-2 {
   justify-content: space-around;
-  padding: 0 10px;
 }
 
 .container-news {
@@ -142,7 +151,6 @@ footer h2 {
 
 .container-small strong {
   font-size: 18px;
-  text-transform: uppercase;
 }
 
 h2,
@@ -167,7 +175,6 @@ nav {
   color: var(--purple);
   padding: 20px;
   margin: 30px 97px 60px;
-  text-transform: uppercase;
   font-style: italic;
 }
 
@@ -190,5 +197,6 @@ nav {
 
 footer {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 112px;
+  font-size: 13px;
 }
