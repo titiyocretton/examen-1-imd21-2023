@@ -6,6 +6,8 @@
   --purple: #d7a1fd;
   --green: #98fb00;
   --beige: #f4ede8;
+  --serif: "Noto Serif", serif;
+  --sans-serif: "Nunito Sans", sans-serif;
 }
 
 /* ====================================
@@ -28,6 +30,8 @@ body {
   text-rendering: optimizeLegibility;
   max-width: 320px;
   margin: auto;
+  font-family: var(--serif);
+  font-size: 15px;
 }
 
 a {
@@ -69,4 +73,11 @@ footer {
 
 .container {
   display: flex;
+}
+
+strong,
+.opportunities,
+h3,
+footer h2 {
+  font-family: var(--sans-serif);
 }
