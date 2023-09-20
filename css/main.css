@@ -3,6 +3,9 @@
 // ==================================== */
 
 :root {
+  --purple: #d7a1fd;
+  --green: #98fb00;
+  --beige: #f4ede8;
 }
 
 /* ====================================
@@ -36,4 +39,34 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+header {
+  background: var(--purple);
+}
+
+nav,
+footer {
+  background: black;
+  color: white;
+}
+
+.news {
+  background: var(--beige);
+}
+
+.citation {
+  background: var(--green);
+}
+
+.opportunities h2 {
+  background: var(--purple);
+}
+
+.opportunities p {
+  background: var(--green);
+}
+
+.container {
+  display: flex;
 }
