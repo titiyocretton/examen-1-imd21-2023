@@ -28,7 +28,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  max-width: 320px;
+  max-width: 428px;
   margin: auto;
   font-family: var(--serif);
   font-size: 15px;
@@ -47,6 +47,7 @@ video {
 
 header {
   background: var(--purple);
+  text-align: center;
 }
 
 nav,
@@ -61,6 +62,7 @@ footer {
 
 .citation {
   background: var(--green);
+  text-align: center;
 }
 
 .opportunities h2 {
@@ -69,10 +71,30 @@ footer {
 
 .opportunities p {
   background: var(--green);
+  width: 50%;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 20px 10px;
+  font-size: 20px;
+  font-style: italic;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.opportunities .container {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.container-2 {
+  justify-content: space-between;
+}
+
+nav {
+  justify-content: space-around;
 }
 
 strong,
@@ -80,4 +102,33 @@ strong,
 h3,
 footer h2 {
   font-family: var(--sans-serif);
+}
+
+h2,
+h1 {
+  font-weight: normal;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.container div {
+  width: 189px;
+}
+
+.section,
+footer,
+nav {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+.cta {
+  flex-grow: 1;
+  text-align: center;
 }
