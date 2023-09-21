@@ -73,9 +73,37 @@ footer {
   color: white;
 }
 
-.news {
-  background: var(--beige);
-  padding: 60px 10px;
+.container-small {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  align-items: center;
+  height: 168px;
+}
+
+.container-small strong {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.article-whats-on div {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-top: 7px solid var(--purple);
+  text-align: center;
+  line-height: 15px;
+}
+
+.cta {
+  flex-grow: 1;
+  text-align: center;
+  background: black;
+  color: var(--purple);
+  padding: 20px;
+  margin: 30px 97px 60px;
+  font-style: italic;
 }
 
 .citation p {
@@ -93,6 +121,20 @@ footer {
   font-style: italic;
   line-height: 28px;
   letter-spacing: -1.5px;
+}
+
+.news {
+  background: var(--beige);
+  padding: 60px 10px;
+}
+
+.article p {
+  padding: 20px;
+}
+
+.article {
+  background: white;
+  border-radius: 20px;
 }
 
 .opportunities h2 {
@@ -142,20 +184,6 @@ footer h2 {
   width: 189px;
 }
 
-.container-small {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-top: 20px;
-  align-items: center;
-  height: 168px;
-}
-
-.container-small strong {
-  font-size: 18px;
-  line-height: 24px;
-}
-
 h2,
 h1 {
   font-weight: normal;
@@ -171,37 +199,9 @@ nav {
   padding: 20px;
 }
 
-.cta {
-  flex-grow: 1;
-  text-align: center;
-  background: black;
-  color: var(--purple);
-  padding: 20px;
-  margin: 30px 97px 60px;
-  font-style: italic;
-}
-
-.article {
-  background: white;
-  border-radius: 20px;
-}
-
-.article p {
-  padding: 20px;
-}
-
 .section h2 {
   padding-bottom: 30px;
   text-transform: uppercase;
-}
-
-.article-whats-on div {
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
-  border-left: 1px solid #000;
-  border-top: 7px solid var(--purple);
-  text-align: center;
-  line-height: 15px;
 }
 
 footer {
