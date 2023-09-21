@@ -53,7 +53,6 @@ video {
 header {
   background: var(--purple);
   text-align: center;
-  text-transform: uppercase;
   margin-bottom: 60px;
 }
 
@@ -78,7 +77,6 @@ footer {
   flex-direction: column;
   gap: 20px;
   padding-top: 20px;
-  align-items: center;
   height: 168px;
 }
 
@@ -97,23 +95,21 @@ footer {
 }
 
 .cta {
-  flex-grow: 1;
-  text-align: center;
   background: black;
   color: var(--purple);
-  padding: 20px;
-  margin: 30px 97px 60px;
+  padding: 20px 30px;
+  margin: 30px 0 60px;
   font-style: italic;
 }
 
 .citation p {
-  padding-bottom: 20px 20px 0;
+  padding: 20px 20px 0;
 }
 
 .citation {
   background: var(--green);
   text-align: center;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 .citation strong {
@@ -139,6 +135,8 @@ footer {
 
 .opportunities h2 {
   background: var(--purple);
+  padding: 20px;
+  letter-spacing: -2.5px;
 }
 
 .opportunities p {
@@ -161,10 +159,7 @@ footer h2 {
 .opportunities .container {
   border-top: 1px solid #000;
   border-left: 1px solid #000;
-}
-
-.opportunities {
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .container {
